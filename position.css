@@ -1,0 +1,32 @@
+.position1{
+    position: relative;
+    background-color: dimgray;
+
+
+    height:300px;
+}
+.position2{
+    position: relative;
+    background-color:olivedrab;
+    top: 100px;
+left:200px;
+
+    height:300px;
+
+}
+.position3{
+    position: fixed;
+    background-color:olivedrab;
+    bottom: 0;
+    right: 0;
+
+
+
+}
+.position4{
+position:absolute;
+    height:200px;
+    background-color: blue;
+    top:100px;
+    left:200px;
+}

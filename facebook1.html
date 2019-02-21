@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Layout</title>
+    <style>
+        div.container {
+            width: 100%;
+            margin: 1px;
+            border: 0px solid gray;
+            line-height: 100%;
+        }
+        #img1{
+            left: 178px;
+            height:50px;
+            width:100px;
+        top:25px;}
+
+        div.header {
+            padding: 0.5em;
+            color: white;
+            background-color: darkslateblue;
+            clear: left;
+            height: 75px;
+
+            border-left:400px solid darkslateblue;
+        }
+        input[type=text] {
+            width: 75%;
+            padding: 3px 20px;
+            margin: 0px 0;
+            box-sizing: border-box;
+            border: 1px solid #555;
+            outline: none;
+            font-size: 12px;
+
+        }
+
+        input[type=text]:focus {
+            background-color:lightskyblue;
+        }
+        table {
+
+            border-collapse: collapse;
+            border: 0px ;
+            padding: 0em;
+            table-border-color: black;
+            border-left:340px solid darkslateblue;
+
+        }
+
+
+
+
+        div.left {
+            float: left;
+            width: 53%;
+            height:600px;
+            margin: 0;
+            padding: 1em;
+            background-color:#F2F2FF;
+
+
+        }
+
+        p.ex2 {
+            padding-left: 150px;
+            padding-top: 50px;
+            font-size:120%;
+            color:darkblue;
+        }
+
+
+
+        div.content {
+            margin-left: 250px;
+            border-left: 0px solid gray;
+            padding: 0em;
+            overflow: hidden;
+            background-color:#F2F2FF;
+        }
+        table#t01{
+            width: 100%;
+
+            border: 0px ;
+            padding: 0em;
+            table-border-color: none;}
+        td{
+            text-align: left;
+        }
+
+
+
+        input[type=text1] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 0px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;}
+        input[type=text2] {
+            width: 57%;
+            padding: 12px 20px;
+            margin: 4px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;}
+
+        input[type=select] {
+            width: 5%;
+            padding: 4px 1px;
+            margin: 0px  0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;}
+
+        img {
+            display: block;
+            margin: 0 auto;}
+
+
+        a {
+            text-decoration: none;
+            color: royalblue;
+        }
+        input[type=button1], input[type=submit], input[type=reset] {
+            background-color: darkslateblue;
+            border: none;
+            color: white;
+            padding: 3px 4px;
+            text-decoration: none;
+            margin: 0px 0px;
+            cursor: pointer;
+            border: 1px solid black;
+            width:30%;
+        }
+
+
+        label{
+            font-size:75%;
+        }
+        input[type=button2], input[type=submit], input[type=reset] {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 25px;
+            text-decoration: none;
+            margin: 0px 0px;
+            cursor: pointer;
+            width:60%;
+            border: 2px solid  #4CAF50;
+
+            border-radius: 4px;
+        }
+        .footer{
+            width:100%;
+            position:absolute;
+            left:0px;
+
+            background-color: white;
+            height: 80px;
+            top:700px
+
+
+        }
+        #footerbase{
+            width:900px;
+            top:15px;
+            left:200px;
+            color:blue;
+            height:60px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+
+
+        <table>
+            <tr>
+
+                <td>
+                    <form>
+                        <label for="fname">Email or Phone</label>
+                    </form></td>
+                <td colspan="2">
+                    <form>
+                        <label for="fname">Password</label>
+                    </form></td>
+
+            </tr>
+            <tr><td><form>
+                <input type="text" id="fname" name="fname" value="">
+            </form>
+            </td>
+
+                <td >
+                    <form>
+                        <input type="text" id="lname" name="lname" value="">
+                    </form>
+                </td>
+                <td ><input type="button1" value="Log In"></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><form>
+                    <label form="lname">Forgotten Account</label>
+
+                </form></td>
+
+
+
+
+
+            </tr>
+
+
+        </table>
+
+    </div>
+
+    <div class="left"><p  class="ex2">Facebook helps you to connect and share with the<br>
+        people in your life
+        <img src="https://www.facebook.com/rsrc.php/v3/yc/r/GwFs3_KxNjS.png" style="width:100%;"></p>
+    </div>
+
+    <div class="content">
+
+        <h2>Create an account</h2>
+        <p>Its free and always will be</p>
+        <p></p>
+        <table id="t01">
+
+
+
+            <tr>
+                <td ><form>
+                    <input type="text1" name="" value="First name">
+                </form></td><td >
+                <form>
+
+
+                    <input type="text1" name="" value="surname">
+                </form></td><td ></td><td></td>
+
+
+            <tr>
+                <td colspan="4"><form>
+                    <input type="text2" name="" value="mobile number or email address">
+                </form></td>
+
+            </tr>
+            <tr>
+                <td colspan="4"><form>
+                    <input type="text2" name="" value="New password">
+                </form></td>
+
+            </tr>
+
+            <tr>
+                <td >Birthday</td>
+            </tr>
+            <tr>
+                <td><select id="22" name="22">
+                    <option value="22">24</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                </select></td>
+                <td><select id="sept" name="Sept">
+                    <option value="aug">aug</option>
+                    <option value="Sept">Sept</option>
+                    <option value="usa">USA</option>
+                </select></td>
+
+                <td><select id="1993" name="1993">
+                    <option value="1993">1993</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                </select></td>
+                <td><h5 style="color:royalblue">Why do i need to provide my date of birth</h5></td>
+            </tr>
+            <tr>
+                <td > <input type="radio" name="gender" value="male" checked> Male<br></td>
+                <td > <input type="radio" name="gender" value="male" checked> Female<br></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><h5 style="color:grey">By clicking Create an account, you agree to our <a href="https://www.w3schools.com">Terms</a> and confirm that you have read our <a href="https://www.w3schools.com">Data Policy,</a> including our <a href="https://www.w3schools.com">Cookie Use Policy.</a>You may receive SMS message notifications from Facebook and can opt out at any time.</h5></td></tr><tr>
+            <td ><input type="button2" value="Create Account"></td>
+        </tr>
+            <tr>
+                <td colspan="4"> <h5 style="color:grey"><a href="https://www.w3schools.com">Create a page </a> for celebrity,band or buisiness</h5></td>
+            </tr>
+
+
+
+        </table>
+        <div class="footer"><div id="footerbase" class="footer">English (UK)<br><hr>Sign Up Log In $copy; www.coderglass.com  </div>
+
+        </div></div>
+
+
+
+
+</div>
+</div>
+</body>
+</html>

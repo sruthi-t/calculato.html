@@ -1,0 +1,22 @@
+.top-div{
+    background-color: dimgray;
+    height: 64px;
+}
+.section1
+{
+    background-color:slateblue;
+    height: 300px;
+    width: 300px;
+    float: left;
+
+}
+.section2{background-color: coral;
+    height: 300px;
+width: 300px;
+    float: left;}
+.section3{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    float: left;
+}

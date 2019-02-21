@@ -1,0 +1,42 @@
+.headingsection{
+    background-color: coral;
+    height: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: indigo;
+
+}
+.hedaing1{
+    text-decoration:underline;
+margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: deeppink;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:blue
+}
+a:hover{
+    text-decoration: none;
+    color:green;
+}
+a:active{
+    color: saddlebrown;
+}
+.ulstyle{
+    list-style-type: square;
+
+
+}
+.tablestyle,th,td{
+    border: 1px solid black;
+}
+.tablestyle{
+    width:100%;
+}

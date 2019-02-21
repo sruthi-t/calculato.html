@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function buttonclicked(num) {
+            window.alert(num);}
+
+    </script>>
+</head>
+<body>
+<div class="mycalc">
+    <form name="calculator" id="calculator">
+
+<div> <input type="text" name="inputwindow" id="inputwindow">
+</div>
+    <div>
+        <button onclick="buttenclicked(1)">1</button>
+        <button onclick="buttenclicked(2)">2</button>
+        <button onclick="buttenclicked(3)">3</button>
+        <button onclick="buttenclicked('+')">+</button>
+    </div>
+        <div>
+            <button onclick="buttenclicked(4)">4</button>
+            <button onclick="buttenclicked(5)">5</button>
+            <button onclick="buttenclicked(6)">6</button>
+            <button onclick="buttenclicked('-')">-</button>
+        </div>
+        <div>
+            <button onclick="buttenclicked(7)">7</button>
+            <button onclick="buttenclicked(8)">8</button>
+            <button onclick="buttenclicked(9)">9</button>
+            <button onclick="buttenclicked('+')">+</button>
+        </div>
+        <div>
+            <button onclick="buttenclicked(0)">0</button>
+            <button onclick="buttenclicked('.')">.</button>
+            <button onclick="buttenclicked('/')">/</button>
+            <button onclick="buttenclicked('%')">%</button>
+        </div>
+        <div class="results">
+            <input type="button" id="equal" value="=" onclick="calculateresult()">
+            <button type="button" id="clear" value=""
+                    onclick="clearinput(document.getElementById('clear'))">Clear</button>
+        </div>
+    </form></div>
+</body>
+</html>
